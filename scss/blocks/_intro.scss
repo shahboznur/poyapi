@@ -1,0 +1,156 @@
+.intro {
+    background-color: #1b262f;
+}
+
+.intro__title {
+    display: flex;
+    align-items: center;
+
+}
+
+.intro__work {
+    width: 445px;
+    padding: 100px 0;
+}
+
+.intro__work-h3 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;    
+    letter-spacing: -0.369231px;
+    color: #fbfcfe;
+}
+
+.intro__work-p {
+    color: #fbfcfe;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    padding: 24px 0 32px;
+}
+
+.intro__work-link {
+    display: inline-block;
+    padding: 16px 32px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.115385px; 
+    color: #fbfcfe;
+    border: 1px solid #fbfcfe;
+    border-radius: 24px;
+}
+
+.intro__work-link:hover {
+    background-color: #fbfcfe;
+    color: #1b262f;
+}
+
+.intro__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 60%;
+}
+
+.intro__item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__campaign-img {
+    margin: 25px 0;
+}
+
+
+@media screen and (max-width: 960px) {
+
+
+    
+.intro__title {
+    flex-direction: column-reverse;
+
+}
+
+.intro__work {
+    width: 456px;
+    padding: 0 0 88px;
+    text-align: center;
+}
+
+
+.intro__list {
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 88px 0 64px;
+}
+
+.intro__campaign-img {
+    margin: 15px 0;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 550px) {
+
+
+.intro__work {
+    width: 100%;
+    padding: 0 0 88px;
+    text-align: center;
+}
+
+
+.intro__list {
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px 0 64px;
+}
+
+
+.intro__item {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro__campaign-img {
+    margin: 10px 0;
+}
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .intro__work-h3 {
+        font-size: 32px;
+        line-height: 36px;    
+    }
+    
+    .intro__work-p {
+        font-size: 15px;
+        line-height: 28px;  
+        padding: 16px 0 60px;
+    }
+
+        
+    .intro__work {
+        padding: 0 0 70px;
+    }
+
+
+
+
+
+
+
+
+}

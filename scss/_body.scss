@@ -1,0 +1,26 @@
+body{
+    background-color:#edf3f8;
+    background-image:url("../imgs/body-bg.png");
+    background-repeat:no-repeat;
+    background-size:780px 780px;
+    background-position:calc(50% + 500px) -178px
+}
+
+    @media only screen and (max-width: 871px){
+        body{
+            background-size:949px 949px;
+            background-position:center -550px
+        }
+        }
+        
+    @media only screen and (max-width: 769px){
+            body{
+                background-size:949px 949px;
+                background-position:center -650px
+            }
+    }
+    @media only screen and (max-width: 570px){
+        body{background-size:780px 780px;
+            background-position:center -500px
+        }
+    }
